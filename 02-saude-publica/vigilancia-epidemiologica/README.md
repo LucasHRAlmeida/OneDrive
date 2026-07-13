@@ -4,11 +4,13 @@ Monitoramento de agravos, detecção de surtos e sistemas de alerta.
 
 ## 📖 Nesta prateleira
 
-- 🟢 **Sarampo · Alertas 2026** ([`sarampo-alertas-2026`](https://github.com/LucasHRAlmeida/sarampo-alertas-2026))
-  Acompanhamento e alerta de casos de sarampo no contexto de 2026.
+- 🟢 **Alertas de sarampo 2026** (seção de [`sarampo-alertas-2026`](https://github.com/LucasHRAlmeida/sarampo-alertas-2026))
+  O recorte epidemiológico — casos importados, cobertura vacinal e R₀ — dentro do
+  boletim VIA. *(O repositório inteiro é comunicação em saúde, catalogado em
+  [`../promocao-e-prevencao`](../promocao-e-prevencao/).)*
 
 ## 🔵 O que pode vir a existir
 
-- Painel unificado de doenças de notificação compulsória.
+- Painel dedicado de doenças de notificação compulsória (separado do boletim).
 - Boletins automatizados a partir de fontes públicas (DATASUS, boletins estaduais).
-- Alertas por região com séries históricas.
+- Séries históricas por região.

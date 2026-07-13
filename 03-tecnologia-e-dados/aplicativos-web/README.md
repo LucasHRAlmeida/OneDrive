@@ -6,11 +6,16 @@ Front-end e apps de página única — leves, sem servidor, publicáveis no GitH
 ## 📖 Nesta prateleira (pela ótica técnica)
 
 - 🟢 [`ensino-gamificado`](https://github.com/LucasHRAlmeida/ensino-gamificado) —
-  HTML/CSS/JS vanilla, `localStorage`, export PDF (html2pdf.js), parsing CSV (PapaParse).
+  HTML/CSS/JS vanilla, `localStorage`, export PDF (html2pdf.js), parsing CSV (PapaParse). ~1.900 linhas.
 - 🟢 [`via-hub`](https://github.com/LucasHRAlmeida/via-hub) —
   landing page/portfólio, tema claro/escuro, responsiva.
-- 🟢 [`calculadora-imobiliaria`](https://github.com/LucasHRAlmeida/calculadora-imobiliaria) —
-  simulador no navegador *(assunto em [`../../04-cidadania-e-financas`](../../04-cidadania-e-financas/))*.
+- 🟢 [`mentoria-ia-osce-fmrp`](https://github.com/LucasHRAlmeida/mentoria-ia-osce-fmrp) —
+  site estático com estado em JS (fases, estações, dashboard); Vercel Analytics; deploy via Pages.
+- 🟢 [`sarampo-alertas-2026`](https://github.com/LucasHRAlmeida/sarampo-alertas-2026) —
+  página única de conteúdo (boletim de saúde).
+- 🟡 [`calculadora-imobiliaria`](https://github.com/LucasHRAlmeida/calculadora-imobiliaria) —
+  **protótipo inicial** (HTML/CSS/JS separados, `.nojekyll`); ainda embrionário
+  *(assunto em [`../../04-cidadania-e-financas`](../../04-cidadania-e-financas/))*.
 
 ## 🧩 Padrão técnico que se repete
 
@@ -21,4 +26,4 @@ Front-end e apps de página única — leves, sem servidor, publicáveis no GitH
 ## 🔵 O que pode vir a existir
 
 - Um template-base (`starter-app`) para clonar e acelerar novos projetos.
-- Componentes reaproveitáveis (quiz, importador de dados, gerador de PDF).
+- Componentes reaproveitáveis (quiz, importador de dados, gerador de PDF, dashboard).
