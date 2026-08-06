@@ -12,10 +12,7 @@ Front-end e apps de página única — leves, sem servidor, publicáveis no GitH
 - 🟢 [`mentoria-ia-osce-fmrp`](https://github.com/LucasHRAlmeida/mentoria-ia-osce-fmrp) —
   site estático com estado em JS (fases, estações, dashboard); Vercel Analytics; deploy via Pages.
 - 🟢 [`sarampo-alertas-2026`](https://github.com/LucasHRAlmeida/sarampo-alertas-2026) —
-  página única de conteúdo (boletim de saúde).
-- 🟡 [`calculadora-imobiliaria`](https://github.com/LucasHRAlmeida/calculadora-imobiliaria) —
-  **protótipo inicial** (HTML/CSS/JS separados, `.nojekyll`); ainda embrionário
-  *(assunto em [`../../04-cidadania-e-financas`](../../04-cidadania-e-financas/))*.
+  página única de conteúdo (boletim de saúde); publicada e viva no GitHub Pages.
 
 ## 🧩 Padrão técnico que se repete
 

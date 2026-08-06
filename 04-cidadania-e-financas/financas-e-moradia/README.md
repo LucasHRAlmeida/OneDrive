@@ -5,9 +5,10 @@ moradia e imóveis.
 
 ## 📖 Nesta prateleira
 
-- 🟡 **Calculadora imobiliária** ([`calculadora-imobiliaria`](https://github.com/LucasHRAlmeida/calculadora-imobiliaria))
-  **Protótipo inicial**: hoje tem a estrutura de página (HTML/CSS/JS) e um campo de
-  valor de compra — a base para crescer. Em construção.
+*Ainda sem repositórios — prateleira reservada.*
+
+> Houve aqui um protótipo (`calculadora-imobiliaria`), **apagado** por estar
+> embrionário demais. A ideia permanece válida e pode renascer melhor estruturada.
 
 ## 🔵 O que pode vir a existir
 
