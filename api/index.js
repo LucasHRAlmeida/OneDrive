@@ -10,9 +10,17 @@ const files = {
 };
 
 function safeEqual(left, right) {
-  const leftHash = crypto.createHash("sha256").update(left).digest();
-  const rightHash = crypto.createHash("sha256").update(right).digest();
-  return crypto.timingSafeEqual(leftHash, rightHash);
+  const leftBuffer = Buffer.alloc(516);
+  const rightBuffer = Buffer.alloc(516);
+  const leftValue = Buffer.from(left);
+  const rightValue = Buffer.from(right);
+  leftBuffer.writeUInt32BE(leftValue.length, 0);
+  rightBuffer.writeUInt32BE(rightValue.length, 0);
+  leftValue.copy(leftBuffer, 4, 0, 512);
+  rightValue.copy(rightBuffer, 4, 0, 512);
+  return leftValue.length <= 512 &&
+    rightValue.length <= 512 &&
+    crypto.timingSafeEqual(leftBuffer, rightBuffer);
 }
 
 export default function handler(request, response) {
