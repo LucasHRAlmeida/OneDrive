@@ -53,6 +53,9 @@ const library = document.querySelector("#library");
 const empty = document.querySelector("#empty");
 const search = document.querySelector("#search");
 let currentFilter = "all";
+const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+}[character]));
 
 function render() {
   const term = search.value.trim().toLocaleLowerCase("pt-BR");
@@ -65,16 +68,16 @@ function render() {
   })).filter((shelf) => shelf.sections.length);
 
   library.innerHTML = visibleShelves.map((shelf) => `
-    <article class="shelf ${shelf.tone}">
+    <article class="shelf ${escapeHtml(shelf.tone)}">
       <div class="shelf-heading">
-        <span class="shelf-number">${shelf.number}</span>
-        <span class="shelf-icon" aria-hidden="true">${shelf.icon}</span>
-        <div><h2>${shelf.name}</h2><p>${shelf.description}</p></div>
+        <span class="shelf-number">${escapeHtml(shelf.number)}</span>
+        <span class="shelf-icon" aria-hidden="true">${escapeHtml(shelf.icon)}</span>
+        <div><h2>${escapeHtml(shelf.name)}</h2><p>${escapeHtml(shelf.description)}</p></div>
       </div>
       <div class="cards">${shelf.sections.map(([title, description, status, path]) => `
-        <a class="card" href="https://github.com/LucasHRAlmeida/OneDrive/tree/main/${path}" target="_blank" rel="noreferrer">
-          <span class="status ${status}">${labels[status]}</span>
-          <h3>${title}</h3><p>${description}</p><span class="arrow" aria-hidden="true">↗</span>
+        <a class="card" href="https://github.com/LucasHRAlmeida/OneDrive/tree/main/${escapeHtml(path)}" target="_blank" rel="noreferrer">
+          <span class="status ${escapeHtml(status)}">${escapeHtml(labels[status])}</span>
+          <h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p><span class="arrow" aria-hidden="true">↗</span>
         </a>`).join("")}</div>
     </article>`).join("");
   empty.hidden = visibleShelves.length > 0;
