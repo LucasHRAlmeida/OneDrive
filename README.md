@@ -1,5 +1,24 @@
 # 📚 Biblioteca — o Git de Dr. Lucas HR
 
+> Aplicação web privada: [deploy na Vercel](https://vercel.com/) com autenticação por login e senha.
+
+## Aplicação
+
+Este repositório também contém uma versão navegável da biblioteca em `index.html`.
+Ela é uma página estática, com busca e filtros por status. Cada cartão aponta para
+a respectiva pasta no GitHub.
+
+### Deploy na Vercel
+
+1. Importe este repositório na Vercel como um projeto sem framework.
+2. Configure as variáveis de ambiente `APP_USERNAME` e `APP_PASSWORD` (Production,
+   Preview e Development, conforme necessário).
+3. Faça o deploy. O middleware protege todas as rotas com autenticação HTTP Basic.
+
+Sem essas duas variáveis, o middleware retorna erro em vez de publicar o conteúdo
+sem proteção. Para testar a interface localmente, abra `index.html` ou rode um
+servidor estático, por exemplo `python3 -m http.server`.
+
 > Um índice pessoal e pedagógico da minha atuação como **médico** e como **cidadão**.
 > Não é um repositório de código: é o **mapa** que organiza tudo o que eu produzo,
 > mostra onde cada coisa vive e revela o que este Git pode se tornar.
