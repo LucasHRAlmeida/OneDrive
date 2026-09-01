@@ -13,7 +13,7 @@ a respectiva pasta no GitHub.
 1. Importe este repositório na Vercel como um projeto sem framework.
 2. Configure as variáveis de ambiente `APP_USERNAME` e `APP_PASSWORD` (Production,
    Preview e Development, conforme necessário).
-3. Faça o deploy. O middleware protege todas as rotas com autenticação HTTP Basic.
+3. Faça o deploy. A função serverless protege todas as rotas com autenticação HTTP Basic.
 
 Sem essas duas variáveis, o middleware retorna erro em vez de publicar o conteúdo
 sem proteção. Para testar a interface localmente, abra `index.html` ou rode um
