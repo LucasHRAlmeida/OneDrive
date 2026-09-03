@@ -1,4 +1,4 @@
-# 📚 Biblioteca — o Git de Dr. Lucas HR
+# 📚 Biblioteca — o Git de Dr Lucas HR
 
 > Aplicação web privada: [deploy na Vercel](https://vercel.com/) com autenticação por login e senha.
 
@@ -70,10 +70,11 @@ um prefixo de área: `tema-assunto` ou `area-tema`. Exemplos reais e possíveis:
 
 ## 🔗 Vitrine pública
 
-Esta biblioteca é o **bastidor** (privado). A **vitrine** que apresenta os projetos
-ao público é o repositório [`via-hub`](https://github.com/LucasHRAlmeida/via-hub)
-→ publicado em `lucashralmeida.github.io/via-hub/`.
+Esta biblioteca é o **bastidor** (privado). A aplicação pública está em
+[www.iniciativa-via.com](https://www.iniciativa-via.com/). Cada projeto pode ser
+acessado pelo caminho derivado `www.iniciativa-via.com/via-hub/<repositório>`,
+como [`via-hub`](https://www.iniciativa-via.com/via-hub/via-hub).
 
 ---
 
-**Dr. Lucas HR** · FMRP-USP · [github.com/LucasHRAlmeida](https://github.com/LucasHRAlmeida)
+**Dr Lucas HR** · FMRP-USP · [github.com/LucasHRAlmeida](https://github.com/LucasHRAlmeida)

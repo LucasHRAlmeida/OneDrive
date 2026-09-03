@@ -7,7 +7,7 @@ Front-end e apps de página única — leves, sem servidor, publicáveis no GitH
 
 - 🟢 [`ensino-gamificado`](https://github.com/LucasHRAlmeida/ensino-gamificado) —
   HTML/CSS/JS vanilla, `localStorage`, export PDF (html2pdf.js), parsing CSV (PapaParse). ~1.900 linhas.
-- 🟢 [`via-hub`](https://github.com/LucasHRAlmeida/via-hub) —
+- 🟢 [`via-hub`](https://www.iniciativa-via.com/via-hub/via-hub) —
   landing page/portfólio, tema claro/escuro, responsiva.
 - 🟢 [`mentoria-ia-osce-fmrp`](https://github.com/LucasHRAlmeida/mentoria-ia-osce-fmrp) —
   site estático com estado em JS (fases, estações, dashboard); Vercel Analytics; deploy via Pages.
