@@ -1,4 +1,23 @@
-# 📚 Biblioteca — o Git de Dr. Lucas HR
+# 📚 Biblioteca — o Git de Dr Lucas HR
+
+> Aplicação web privada: [deploy na Vercel](https://vercel.com/) com autenticação por login e senha.
+
+## Aplicação
+
+Este repositório também contém uma versão navegável da biblioteca em `index.html`.
+Ela é uma página estática, com busca e filtros por status. Cada cartão aponta para
+a respectiva pasta no GitHub.
+
+### Deploy na Vercel
+
+1. Importe este repositório na Vercel como um projeto sem framework.
+2. Configure as variáveis de ambiente `APP_USERNAME` e `APP_PASSWORD` (Production,
+   Preview e Development, conforme necessário).
+3. Faça o deploy. A função serverless protege todas as rotas com autenticação HTTP Basic.
+
+Sem essas duas variáveis, o middleware retorna erro em vez de publicar o conteúdo
+sem proteção. Para testar a interface localmente, abra `index.html` ou rode um
+servidor estático, por exemplo `python3 -m http.server`.
 
 > Um índice pessoal e pedagógico da minha atuação como **médico** e como **cidadão**.
 > Não é um repositório de código: é o **mapa** que organiza tudo o que eu produzo,
@@ -51,10 +70,11 @@ um prefixo de área: `tema-assunto` ou `area-tema`. Exemplos reais e possíveis:
 
 ## 🔗 Vitrine pública
 
-Esta biblioteca é o **bastidor** (privado). A **vitrine** que apresenta os projetos
-ao público é o repositório [`via-hub`](https://github.com/LucasHRAlmeida/via-hub)
-→ publicado em `lucashralmeida.github.io/via-hub/`.
+Esta biblioteca é o **bastidor** (privado). A aplicação pública está em
+[www.iniciativa-via.com](https://www.iniciativa-via.com/). Cada projeto pode ser
+acessado pelo caminho derivado `www.iniciativa-via.com/via-hub/<repositório>`,
+como [`via-hub`](https://www.iniciativa-via.com/via-hub/via-hub).
 
 ---
 
-**Dr. Lucas HR** · FMRP-USP · [github.com/LucasHRAlmeida](https://github.com/LucasHRAlmeida)
+**Dr Lucas HR** · FMRP-USP · [github.com/LucasHRAlmeida](https://github.com/LucasHRAlmeida)
