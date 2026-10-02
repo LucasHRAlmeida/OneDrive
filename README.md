@@ -1,4 +1,4 @@
-# 📚 Biblioteca — o Git de Dr. Lucas HR
+# 📚 Biblioteca-índice — o Git de Dr. Lucas HR
 
 > Um índice pessoal e pedagógico da minha atuação como **médico** e como **cidadão**.
 > Não é um repositório de código: é o **mapa** que organiza tudo o que eu produzo,
@@ -11,7 +11,7 @@ publicar e organizar essa produção.
 
 ---
 
-## 🧭 Como esta biblioteca é organizada
+## 🧭 Como esta biblioteca-índice é organizada
 
 Pense nela como uma **biblioteca física**:
 
@@ -51,9 +51,21 @@ um prefixo de área: `tema-assunto` ou `area-tema`. Exemplos reais e possíveis:
 
 ## 🔗 Vitrine pública
 
-Esta biblioteca é o **bastidor** (privado). A **vitrine** que apresenta os projetos
-ao público é o repositório [`via-hub`](https://github.com/LucasHRAlmeida/via-hub)
-→ publicado em `lucashralmeida.github.io/via-hub/`.
+Esta biblioteca-índice é o **bastidor** (privado). A **vitrine** que apresenta os
+projetos ao público é o repositório
+[`via-hub`](https://github.com/LucasHRAlmeida/via-hub) → publicado em
+`lucashralmeida.github.io/via-hub/`.
+
+## 🏷️ Nome e função
+
+O nome atual do repositório (`OneDrive`) é ruim para a função que ele cumpre:
+aponta para um fornecedor e sugere **storage bruto**, quando o papel real aqui é
+de **biblioteca-índice** — organizar, nomear, referenciar e dar contexto aos
+artefatos que vivem em outros repositórios e serviços.
+
+Por isso, o nome operacional preferido para este repositório passa a ser
+**`biblioteca-indice`**. Alternativas aceitáveis, se houver restrição externa de
+nome, são `acervo-indice`, `biblioteca-operacional` e `atlas-de-projetos`.
 
 ---
 
