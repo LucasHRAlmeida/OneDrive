@@ -4,7 +4,9 @@ Slides, roteiros de aula e conteúdo de ensino reutilizável entre projetos.
 
 ## 📖 Nesta prateleira
 
-*Ainda sem repositórios — prateleira reservada.*
+- 🟡 **Biologia do Câncer — origem do tomo** ([`biologia-do-cancer/`](biologia-do-cancer/))
+  Não publicado. História editorial do fio 2016–2017, evidências da declaração de 07/09/2025 e a própria declaração. O livro compilado continua no Drive. Guia do Plantonista é outro material e não está aqui.
+  Índice de conteúdo em [`../../01-medicina/oncologia`](../../01-medicina/oncologia/).
 
 ## 🔵 O que pode vir a existir
 
