@@ -1,4 +1,4 @@
-# 📚 Biblioteca-índice — o Git de Dr. Lucas HR
+# 📚 Biblioteca-nexo — o Git de Dr. Lucas HR
 
 > Um índice pessoal e pedagógico da minha atuação como **médico** e como **cidadão**.
 > Não é um repositório de código: é o **mapa** que organiza tudo o que eu produzo,
@@ -21,7 +21,7 @@ Pense nela como uma **biblioteca física**:
   em `github.com/LucasHRAlmeida` e são **referenciados** aqui a partir da prateleira certa.
 
 Cada pasta tem um `README.md` que explica **o que pertence ali**, **o que já existe**
-e **o que pode vir a existir**. Assim a estrutura ensina sozinha — quem chega
+e o que pode vir a existir. Assim a estrutura ensina sozinha — quem chega
 entende o todo antes de abrir qualquer projeto.
 
 ## 🗂️ As estantes
@@ -32,14 +32,18 @@ entende o todo antes de abrir qualquer projeto.
 | [`02-saude-publica`](02-saude-publica/) | Saúde coletiva | Vigilância epidemiológica, promoção e prevenção |
 | [`03-tecnologia-e-dados`](03-tecnologia-e-dados/) | Tecnologia (habilidade transversal) | Aplicativos web, IA em saúde, ciência de dados |
 | [`04-cidadania-e-financas`](04-cidadania-e-financas/) | Vida como cidadão | Finanças e moradia, direitos e sociedade |
-| [`05-conhecimento`](05-conhecimento/) | Produção de conhecimento | Publicações, referências, materiais didáticos |
+| [`05-conhecimento`](05-conhecimento/) | Produção de conhecimento | Publicações, referências, materiais didáticos, **SSOT do Nexo** |
 | [`99-laboratorio`](99-laboratorio/) | Experimentos | Rascunhos e provas de conceito sem estante definida |
 
-## 🔖 Legenda de status (usada nos READMEs das prateleiras)
+## 🤖 Nexo — assistente da Iniciativa VIA
 
-- 🟢 **No ar** — publicado e em uso.
-- 🟡 **Em construção** — existe, mas ainda amadurecendo.
-- 🔵 **Planejado** — ideia mapeada, ainda não iniciada.
+O **Nexo** é o assistente da Iniciativa VIA, ativo no WhatsApp Business.
+O texto canônico de operação (SSOT) e o contrato de fontes vivem em
+`05-conhecimento/nexo/` nesta biblioteca — o depósito versionado.
+
+A fonte de edição é o repositório
+[via-hub](https://github.com/LucasHRAlmeida/via-hub), pasta `nexo/`.
+Quando o SSOT mudar lá, o espelho aqui é atualizado.
 
 ## ✍️ Convenção de nomes de repositórios
 
@@ -51,21 +55,20 @@ um prefixo de área: `tema-assunto` ou `area-tema`. Exemplos reais e possíveis:
 
 ## 🔗 Vitrine pública
 
-Esta biblioteca-índice é o **bastidor** (privado). A **vitrine** que apresenta os
+Esta biblioteca-índice é o **bastidor**. A **vitrine** que apresenta os
 projetos ao público é o repositório
-[`via-hub`](https://github.com/LucasHRAlmeida/via-hub) → publicado em
+[via-hub](https://github.com/LucasHRAlmeida/via-hub) → publicado em
 `lucashralmeida.github.io/via-hub/`.
+
+Quando o GitHub Pages for ativado aqui, esta biblioteca ganha página própria em
+`lucashralmeida.github.io/biblioteca-nexo/`, independente do via-hub.
 
 ## 🏷️ Nome e função
 
-O nome atual do repositório (`OneDrive`) é ruim para a função que ele cumpre:
-aponta para um fornecedor e sugere **storage bruto**, quando o papel real aqui é
-de **biblioteca-índice** — organizar, nomear, referenciar e dar contexto aos
+O repositório foi renomeado de `OneDrive` para `biblioteca-nexo`.
+O nome antigo apontava para um fornecedor e sugeria storage bruto; o papel real
+é de **biblioteca-índice** — organizar, nomear, referenciar e dar contexto aos
 artefatos que vivem em outros repositórios e serviços.
-
-Por isso, o nome operacional preferido para este repositório passa a ser
-**`biblioteca-indice`**. Alternativas aceitáveis, se houver restrição externa de
-nome, são `acervo-indice`, `biblioteca-operacional` e `atlas-de-projetos`.
 
 ---
 
