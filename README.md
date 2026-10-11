@@ -58,10 +58,12 @@ projetos ao público é o repositório
 
 ## 🏷️ Nome e função
 
-O nome atual do repositório (`OneDrive`) é ruim para a função que ele cumpre:
+O nome atual (2016.10.10) do repositório (`OneDrive`) é ruim para a função que ele cumpre:
 aponta para um fornecedor e sugere **storage bruto**, quando o papel real aqui é
 de **biblioteca-índice** — organizar, nomear, referenciar e dar contexto aos
-artefatos que vivem em outros repositórios e serviços.
+artefatos que vivem em outros repositórios e serviços. Essa fase tem início em 10 de outubro de 2026, com a construção da corpora que informa o Nexo, agente VIA treinado a partir do "Assistente para Empresas" da Meta
+O Nexo não fornece atendimento médico - mas tem amplo acesso, e dirigido por esse mantenedor, a uma quantidade absurda de informação. A tecnologia não exerce o ofício, mas dá condições pra que seu exercício tenha chance de acontecer numa jornada mais simples, mais virtuosa
+Uma via, não uma longa jornada. Neste dia, esta biblioteca tornou-se o **terceiro objeto**
 
 Por isso, o nome operacional preferido para este repositório passa a ser
 **`biblioteca-indice`**. Alternativas aceitáveis, se houver restrição externa de
